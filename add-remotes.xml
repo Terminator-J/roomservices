@@ -2,4 +2,6 @@
 <manifest>
   <remote name="terminatorj" fetch="https://github.com/Terminator-J/" />
   <remote name="lineage" fetch="https://github.com/LineageOS/" />
+  <remote name="syberia" fetch="https://github.com/SyberiaProject-Devices" />
+  <remote name="aosip" fetch="https://github.com/AOSiP-Devices/" />
 </manifest>
