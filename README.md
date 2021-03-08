@@ -4,4 +4,4 @@ Apparently the dirty little not-so-secret is that most build instructions don't 
 
 So without the actual roomservice.xml files (or whatever other manifests one adds; you're now free to add as many as you want and they get parsed in alphabetical order, capture the magic) you're just guessing. Here are some that work, or don't, as noted by branch. 
 
-This one worked, as of 20210107.
+This one works for building the upcoming Illusion kernel based builds, tested as of 20210308.
