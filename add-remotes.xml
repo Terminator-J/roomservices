@@ -1,5 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="terminatorj" fetch="https://github.com/Terminator-J/" />
+  <remote name="terminatorj" fetch="https://github.com/" />
   <remote name="lineage" fetch="https://github.com/LineageOS/" />
   <remote name="gitlab" fetch="https://gitlab.com/" />
+  <remote name="abhizala" fetch="https://github.com/" />
+  <remote name="ezio84" fetch="https://github.com/" />
+  <remote name="syberia" fetch="https://github.com/" />
+  <remote name="luk1337" fetch="https://github.com/" />
 </manifest>
