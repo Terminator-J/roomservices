@@ -3,12 +3,21 @@
   <project name="Terminator-J/crdroid_device_oneplus_enchilada" path="device/oneplus/enchilada" remote="terminatorj" revision="11.0-test" />
   <project name="Terminator-J/crdroid_device_oneplus_fajita" path="device/oneplus/fajita" remote="terminatorj" revision="11.0-test" />
   <project name="Terminator-J/crdroid_device_oneplus_sdm845-common" path="device/oneplus/sdm845-common" remote="terminatorj" revision="11.0-test" />
-  <project name="Terminator-J/crdroid_kernel_oneplus_sdm845" path="kernel/oneplus/sdm845" remote="terminatorj" revision="11.0-test" />
+  <project name="Terminator-J/crdroid_kernel_oneplus_sdm845" path="kernel/oneplus/sdm845" remote="terminatorj" revision="11.0-mcd" />
   <project name="crdroidandroid/android_device_oneplus_common" path="device/oneplus/common" remote="crdroid" revision="11.0" />
   <project name="crdroidandroid/proprietary_vendor_oneplus" path="vendor/oneplus" remote="crdroid" revision="11.0-sdm845-common" />
-  <project name="firebird11/packages_apps_googlecamera" path="packages/apps/GoogleCamera" remote="gitlab" revision="11.0" />
+  <project name="firebird11/packages_apps_googlecamera" path="packages/apps/GoogleCamera" remote="gitlab" clone-depth="1" revision="11.0" />
   <remove-project path="system/netd" name="crdroidandroid/android_system_netd" />
-  <project name="Terminator-J/crdroid_system_netd" path="system/netd" remote="terminatorj" revision="11.0" />
+  <project name="Terminator-J/android_system_netd" path="system/netd" remote="terminatorj" revision="11.0" />
+  <remove-project path="build/make" name="crdroidandroid/android_build" />
+  <project name="Terminator-J/android_build" path="build/make" remote="terminatorj" revision="11.0" />
+  <remove-project path="build/soong" name="crdroidandroid/android_build_soong" />
+  <project name="Terminator-J/android_build_soong" path="build/soong" remote="terminatorj" revision="11.0" />
+<!--
+  <project name="Terminator-J/crdroid_vendor_addons_onepluscamera" path="vendor/oneplus/onepluscamera" remote="gitlab" revision="11.0-sdm845-common" />
+  <project name="mcdachpappe/mcd-clang" path="prebuilts/clang/host/linux-x86/clang-mcd_v13" remote="github" clone-depth="1" revision="v13" />
+  <project name="kdrag0n/proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="github" clone-depth="1" revision="master" />
+-->
   <project name="Terminator-J/crdroid_device_google_bonito" path="device/google/bonito" remote="terminatorj" revision="11.0-gapps" />
   <project name="Terminator-J/crdroid_kernel_google_sargito" path="kernel/google/sargito" remote="terminatorj" revision="11.0-ub" />
   <project name="LineageOS/android_packages_apps_ElmyraService" path="packages/apps/ElmyraService" remote="github" revision="lineage-18.1" />
